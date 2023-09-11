@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.intro__wrap .intro__image .intro__icon, .intro__wrap .intro__header .nav {
+  margin-top: 40px;
+}
+
+.intro__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.intro__wrap .intro__header {
+  margin-right: 56px;
+}
+.intro__wrap .intro__header .nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.intro__wrap .intro__header .nav img {
+  margin: 0 10px;
+}
+.intro__wrap .intro__header .nav .nav__text_w {
+  color: white;
+  background-color: var(--akana-green, #156963);
+}
+.intro__wrap .intro__header .nav .nav__text_g {
+  color: var(--akana-green, #156963);
+  background-color: white;
+}
+.intro__wrap .intro__header .nav .nav__text {
+  text-align: center;
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  padding: 8px 30px;
+}
+.intro__wrap .intro__header .intro__text {
+  margin: 110px 16px 0 77px;
+}
+.intro__wrap .intro__header .intro__text h1 {
+  color: var(--akana-green, #156963);
+  font-family: Montserrat;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.intro__wrap .intro__header .intro__text p {
+  color: var(--kq-black, #2C1500);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+.intro__wrap .intro__header .intro__nav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 110px;
+  justify-content: flex-start;
+  margin: 110px 16px 0 77px;
+}
+.intro__wrap .intro__header .intro__nav .nav__button {
+  padding: 49px;
+}
+.intro__wrap .intro__header .intro__nav .nav__button div {
+  display: flex;
+}
+.intro__wrap .intro__header .intro__nav .nav__button div p {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.intro__wrap .intro__header .intro__nav .nav__button_previous {
+  padding-left: 0;
+}
+.intro__wrap .intro__header .intro__nav .nav__button_previous p {
+  color: var(--Gray-1, #333);
+}
+.intro__wrap .intro__header .intro__nav .nav__button_previous h3 {
+  color: #156963;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.intro__wrap .intro__header .intro__nav .nav__button_next {
+  background: #156963;
+}
+.intro__wrap .intro__header .intro__nav .nav__button_next p {
+  color: white;
+}
+.intro__wrap .intro__header .intro__nav .nav__button_next h3 {
+  color: white;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.intro__wrap .intro__image {
+  position: relative;
+}
+.intro__wrap .intro__image .intro__icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 56px;
+}
+
+.features .container .intro__wrap .intro__list .intro__features {
+  display: flex;
+  list-style: none;
+}
+.features .container .intro__wrap .intro__list .intro__features li div {
+  display: flex;
+}
+.features .container .intro__wrap .intro__list .intro__features li div h3 {
+  color: var(--akana-green, #156963);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+.features .container .intro__wrap .intro__list .intro__features li p {
+  color: var(--kq-black, #2C1500);
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 160% */
+}/*# sourceMappingURL=index.css.map */
